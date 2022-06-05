@@ -1,4 +1,5 @@
 const { 
+        aiovideodl,
 	otakudesu,
 	covid,
 	ongoing,
@@ -21,6 +22,7 @@ const {
 	ttdownloader
 } = require('./lib/function')
 
+module.exports.aiovideodl = aiovideodl
 module.exports.otakudesu = otakudesu
 module.exports.covid = covid
 module.exports.ongoing = ongoing
